@@ -8,12 +8,18 @@
     height:1072px;
     background: url(../img/man\ and\ laptop.jpg.png) center;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
     /* border:2px solid gold ; */
   
+}
+.main {
+    /* border:2px solid gold; */
+    height: 1000px; 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
 }
 .icon_1 {
     width: 58px;
@@ -31,6 +37,7 @@ color: #ffffff;
 font-weight: 700;
 font-family: "Lato";
 text-align: center;
+text-transform: uppercase;
 /* border: 2px solid red; */
 margin-bottom:25px;
 }
@@ -49,6 +56,7 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Lato";
 text-align: center;
+text-transform: uppercase;
 /* border: 2px solid blue; */
 }
 .mouse {
@@ -57,4 +65,49 @@ text-align: center;
 height: 37px;
 border-radius: 2px;
 margin-bottom: 50px;
+}
+.about {
+    width: 1920px;
+    height: 450px;
+    background-color:#FFFFFF;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.about-container {
+    border: 3px solid gray;
+    width: 60%;
+    height: 80%;
+    margin: 50px auto;
+}
+.notbed {
+    /* border: 2px solid greenyellow; */
+    width: 208px;
+    height: 35px;
+    background-color: #FFFFFF;
+    margin: -25px auto;
+}
+.ab-title {
+    /* border: 2px solid blue; */
+    width: 208px;
+    height: 35px;
+    font-size: 34px;
+letter-spacing: 5px;
+color: #3c3c3c;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+    margin:0 auto;
+}
+.ab-text{
+    width: 553px;
+    /* border: 2px solid rebeccapurple; */
+height: 250px;
+font-size: 16px;
+line-height: 24px;
+color: #3c3c3c;
+font-weight: 300;
+font-family: "Lato";
+text-align: center;
+margin: 0 auto;
+padding-top: 50px;
 }
