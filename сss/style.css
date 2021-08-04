@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+    }
+
+ .container_1 {
+    width: 1920px;
+    height:1072px;
+    background: url(../img/man\ and\ laptop.jpg.png) center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border:2px solid gold ; */
+  
+}
+.icon_1 {
+    width: 58px;
+    height: 58px;
+    /* border: 2px solid red; */
+    margin: 300px auto 94px auto;
+   text-align: center;
+}
+.title_1 {
+    width: 591px;
+    height: 150px;
+    font-size: 54px;
+letter-spacing: 9px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+/* border: 2px solid red; */
+margin-bottom:25px;
+}
+.text {
+    /* border: 2px solid blue;  */
+    margin-bottom: 200px;
+}
+
+.text_1 {
+    width: 589px;
+height: 30px;
+font-size: 15px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+/* border: 2px solid blue; */
+}
+.mouse {
+    /* border: 2px solid green; */
+    width: 23px;
+height: 37px;
+border-radius: 2px;
+margin-bottom: 50px;
+}
