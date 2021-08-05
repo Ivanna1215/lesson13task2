@@ -79,7 +79,7 @@ margin-bottom: 50px;
     height: 80%;
     margin: 50px auto;
 }
-.notbed {
+.ab-invisible {
     /* border: 2px solid greenyellow; */
     width: 208px;
     height: 35px;
@@ -111,3 +111,66 @@ text-align: center;
 margin: 0 auto;
 padding-top: 50px;
 }
+
+.services {
+    width: 1920px;
+    height: 488px;
+    background: url(../img/she\ writes.jpg.png) center;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+    .serv-cont{
+        border: 3px solid white;
+        width: 60%;
+        height: 70%;
+        margin: 80px auto;
+        padding-top: 50px;
+    }
+        .serv-invisible{
+           /* border: 2px solid greenyellow; */
+    width: 208px;
+    height: 35px;
+    background-color: rgba(255, 255, 255 1);
+    margin: -30px auto; 
+        }
+        .serv-title{
+            font-size: 34px;
+letter-spacing: 5px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+/* margin-bottom: 65px; */
+}
+        
+        .serv-text {
+            width: 553px;
+            /* height: 280px; */
+            font-size: 16px;
+            line-height: 26px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center; 
+            /* border: 3px solid greenyellow; */
+            margin:20px auto;
+        }
+            
+ .what {
+width: 1920px;
+height: 1700px;
+margin: 0 auto;
+border: 3px solid greenyellow;
+}
+    .whcont{
+        width: 60%;
+        height: 70%;
+        border: 2px solid red;
+        margin: 0 auto;  
+    }
+    .wh-invisible{}
+    .wh-title{}
+    .part-1{}
+        .wh-img{}
+        .wh-name{}
+        .wh-text{}
