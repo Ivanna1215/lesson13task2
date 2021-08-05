@@ -217,12 +217,12 @@ margin: 0 auto;
  .gallery {
      width: 1920px;
      height: 484px;  
+     margin: 0 auto;
  }
 
  .gal-wrap {
     
 /* border: 2px solid red; */
-margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
 /* padding: 5px; */
@@ -254,12 +254,15 @@ flex-wrap: wrap;
      height: 237px;
      background: url(../img/2.png);
      margin-right: 5px;
+     margin-bottom: 5px; 
  }
 
  .mark{
      width: 550px;
      height: 237px;
      background:url(../img/3.png) ;
+     margin-right: 5px;
+     margin-bottom: 5px; 
  }
  .work {
     width: 548px;
