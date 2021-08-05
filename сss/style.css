@@ -72,24 +72,19 @@ margin-bottom: 50px;
     background-color:#FFFFFF;
     /* border: 2px solid red; */
     margin: 0 auto;
+    padding-top: 80px;
 }
 .about-container {
     border: 3px solid gray;
     width: 60%;
     height: 80%;
-    margin: 50px auto;
+    margin: 0 auto;
+    position: relative; 
 }
-.ab-invisible {
-    /* border: 2px solid greenyellow; */
-    width: 208px;
-    height: 35px;
-    background-color: #FFFFFF;
-    margin: -25px auto;
-}
+
 .ab-title {
     /* border: 2px solid blue; */
-    width: 208px;
-    height: 35px;
+    width: 308px;
     font-size: 34px;
 letter-spacing: 5px;
 color: #3c3c3c;
@@ -97,6 +92,10 @@ font-weight: 700;
 font-family: "Lato";
 text-align: center;
     margin:0 auto;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,-50%);
+    background-color: white;
 }
 .ab-text{
     width: 553px;
