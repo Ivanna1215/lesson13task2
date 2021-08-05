@@ -202,8 +202,8 @@ font-family: "Lato";
 text-align: center;
 padding-bottom: 40px;
         }
-        .wh-text {
-            width: 553px;
+.wh-text {
+width: 553px;
 /* height: 324px; */
 font-size: 14px;
 line-height: 26px;
@@ -214,3 +214,67 @@ text-align: center;
 /* border: 2px solid red; */
 margin: 0 auto;
  }
+ .gallery {
+     width: 1920px;
+     height: 484px;  
+ }
+
+ .gal-wrap {
+    
+/* border: 2px solid red; */
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+/* padding: 5px; */
+}
+.gal-name {
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    /* border: 2px solid blue; */
+    text-align: left;
+    margin-top: 168px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+ .top {
+     width: 548px;
+     height: 237px;
+     background: url(../img/1.png);
+     margin-right: 5px;
+     margin-bottom: 5px; 
+ }
+
+ .joint {
+     width: 802px;
+     height: 237px;
+     background: url(../img/2.png);
+     margin-right: 5px;
+ }
+
+ .mark{
+     width: 550px;
+     height: 237px;
+     background:url(../img/3.png) ;
+ }
+ .work {
+    width: 548px;
+    height: 237px;
+    background: url(../img/4.png);
+    margin-right: 5px;
+}
+.lab {
+    width: 802px;
+    height: 237px;
+    background: url(../img/5.png);
+    margin-right: 5px;
+}
+.Kyiv {
+    width: 550px;
+    height: 237px;
+    background:url(../img/6.png) ;
+}
