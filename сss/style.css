@@ -18,8 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 .icon_1 {
     width: 58px;
@@ -162,7 +161,7 @@ padding-bottom: 100px;
 }
     .whcont {
         width: 60%;
-        /* height: 903px; */
+        height: 1196px;
         border: 3px solid #3E3E3E;
         margin: 0 auto;
         position: relative;
@@ -187,8 +186,8 @@ padding-bottom: 100px;
     .part {
         /* border: 2px solid blue; */
         text-align: center;
-        padding-top:50px;
-        padding-bottom: 50px;
+        margin-top: 100px;
+        /* padding-bottom: 50px; */
     }
         .wh-img {
             padding-bottom: 40px;
@@ -356,6 +355,7 @@ right: 50%;
 transform: translate(50%,0)
 }
 footer {
+    width: 900px;
     display: flex;
     justify-content: center;
     /* border: 2px solid blue; */
@@ -363,7 +363,7 @@ footer {
 }
 .foot-logo {
     /* border: 2px solid yellow; */
-    width: 2%;
+    width: 5%;
 }
 
 .foot-text {
